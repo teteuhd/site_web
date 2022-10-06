@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+
+li, a {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: floralwhite;
+    text-decoration: none;
+}
+
+body {
+    background-image: url(top\ bike\ fundo.webp);
+    background-size: 0;
+    background-position: top;
+    background-repeat: no-repeat;
+
+}   
+
+h2 {
+    text-align: center;
+    font-size: 40px;
+    font-family: "Montserrat", sans-serif;
+
+}
+
+img {
+    max-width: 100%;
+    display: flex;
+}
+
+header {
+    background-color: rgba(105,105,105,0.7);
+    display: flex;
+    top: 0;
+    left: 0;
+    position: fixed;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 10px;
+}
+
+.titulo {
+
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    font-size: 2rem;
+    padding: 3rem;
+}
+
+.subtitulo {
+    font-style: italic;
+    font-weight: 500;
+    font-size: 25px;
+    text-align: center;
+    margin-bottom: 10rem;
+    font-family: "Montserrat", sans-serif;
+}
+
+.logo {
+    cursor: pointer;
+    height: 50px;
+    margin-right: auto;
+}
+
+.menu {
+    list-style: none;
+    display: block;
+}
+
+.menu li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.menu li a {
+    transition: all 0.3s ease 0s;
+}
+
+.menu li a:hover {
+    color: #fc740c;
+}
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 800px;
+    margin: 0 auto;
+    
+}
+
+.flex > div {
+    flex: 1 1 200px;
+    margin: 10px;
+}
+
+.flex p {
+    background-color: rgba(0,0,0,0.6);
+    font-family: "Montserrat", sans-serif;
+    color: whitesmoke;
+    padding: 10px;
+}
+
+.borda-img {
+    border: 3px solid rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.formulario {
+    background-color: rgba(105,105,105,0.7);
+    margin: 0px auto;
+    width : 700px;
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+    border-radius: 20px;
+    font-family: "Montserrat", sans-serif;
+}
+
+#titulo {
+    text-align: center;
+    font-size:2em;
+}
+
+#subtitulo {
+    text-align: center;
+    font-size: 1.2em;
+}
+
+.campo {
+    margin-bottom: 10px;
+    border-radius: 5px 
+}
+
+.campo label {
+    margin-bottom: 0.2em;
+    display: block;
+
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+}
+
+.botao {
+    font-size: 1em;
+    padding: 0.4em 2em;
+    border-radius: 10px;
+    border-width:1px;
+
+}
+
+#nome, #email, #telefone {
+    width: 493px;
+
+} 
+
+input{
+    padding: 5px;
+    font-size: 1em;
+}
+
+#check input{
+    width: 15px;
+    height: 15px;
+}
+
+.radio input{
+    width: 15px;
+    height: 15px;
+}
+
+select{
+    padding: 5px;
+    font-size: 1em;
+}
+
+.grupo {
+    display: flex;
+    justify-content: space-between;
+    width: 500px;
+}
+
+.rodape {
+    background-color:rgba(0, 0, 0, 0.5);
+    width: 99%;
+    display: flex;
+    margin: 5px;
+    padding: 5px;
+    font-family: "Montserrat", sans-serif;
+    flex-wrap: wrap;
+}

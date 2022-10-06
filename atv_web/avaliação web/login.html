@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="login.css">
+<link rel="shortcut icon" href="../logo-bike.png" type="image/x-icon">
+    <title>Login</title>
+</head>
+<body>
+<main>
+    <section class="caixa-login">
+    <form action="" id="form-login">
+        <div class="campo">  
+            <h2 class="titulo-login">Login de Usuário</h2>
+        </div>
+        
+        <div class="campo">
+            <label id="userLabel"> <strong>Email</strong>  </label>
+            <input type="email" name="email" id="email" required>
+        </div>
+
+        <div class="campo">
+            <label id="senhaLabel"> <strong>Senha</strong>  </label>
+            <input type="password" name="password" id="senha" required>
+        </div>
+
+        <div class="enviar"> 
+            <button class="botao" id="btn-login" type="submit" onclick="logar()"> Login </button>
+        </div>
+    </form>
+    </section>
+
+</main>    
+<script src="login.js"></script>
+</body>
+</html>
